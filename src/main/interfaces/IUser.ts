@@ -4,10 +4,10 @@ interface IUser {
 	firstName: string;
 	lastName: string;
 	email: string;
-	birthdate: string
-	phone: string
-	username: string
-	password?: string;
+	phoneNumber: string
+	username?: string
+	gender?: any;
+	tokenHas?: any;
 }
 
 export default IUser;
